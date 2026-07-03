@@ -21,12 +21,12 @@ class StudyTextRequest(BaseModel):
     text: str = Field(..., min_length=50, description="The study notes or text content to analyze. Must be at least 50 characters.")
 
 @app.get("/")
-def home():
+def root():
     return {
         "project": "AI Study Buddy API",
         "status": "Running",
         "documentation": "/docs",
-        "health": "/api/health"
+        "health_check": "/api/health"
     }
 
 @app.get("/api/health")
