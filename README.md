@@ -5,7 +5,19 @@ A simple, lightweight, and beginner-friendly web application designed to help us
 - 🎴 Flippable **Flashcards** with a smooth 3D CSS transition.
 - ❓ An interactive **Practice Quiz** (5 MCQs) with instant visual feedback and answer explanations.
 This project is built using **Vanilla CSS** (no Tailwind or other CSS frameworks) and contains no complex setups like databases, RAG, authentication, or chat history, making it ideal for beginners.
+
+## 🌐 Live Demo
+
+**Frontend:**  
+https://edunet-ai-powered-study-buddy.vercel.app
+
+**Backend API:**  
+https://study-buddy-backend-fiej.onrender.com
+
+**API Documentation:**  
+https://study-buddy-backend-fiej.onrender.com/docs
 ---
+
 ## Project Structure
 ```text
 Study Buddy/
