@@ -6,7 +6,7 @@ import ConceptsView from './components/ConceptsView';
 import QuizView from './components/QuizView';
 import FlashcardsView from './components/FlashcardsView';
 
-const BACKEND_URL = 'http://localhost:8000';
+const BACKEND_URL = 'https://study-buddy-backend-fiej.onrender.com';
 
 function App() {
   const [studyData, setStudyData] = useState(null);
